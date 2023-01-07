@@ -1,0 +1,17 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+.outer-screen{
+    height: 15%;
+    width: 100%;
+    background-color: black;
+}
+.bg {
+    background-image: url("./assets/background/2 Background/Background.png");
+    height: 70%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
