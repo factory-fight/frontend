@@ -1,8 +1,4 @@
-body, html {
-    height: 100%;
-    margin: 0;
-  }
-  
+html, body {margin: 0; height: 100%; overflow: hidden}
 .outer-screen{
     height: 15%;
     width: 100%;

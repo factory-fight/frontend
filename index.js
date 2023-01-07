@@ -45,13 +45,12 @@ class life{
 
     life_set.id = "life_set"+id
     life_set.style.top = 10
-    if(is_left){
-      life_set.style.left = (parseInt(screen.width)- parseInt(life_set.clientWidth)-10)+"px"
-    }else{
-      life_set.style.left = "50px"
-    }
+    document.getElementById("top").appendChild(life_set);
+    this.life_set  = document.getElementById("life_set"+id)
 
-    document.getElementById("bg").appendChild(life_set);
+      this.life_set.style.left = "450px"
+
+    document.getElementById("top").appendChild(life_set);
     for(var i =0;i<life_count;i++ ){
       const life = document.createElement("img");
       life.id = "life_set"+id+"_"+i
